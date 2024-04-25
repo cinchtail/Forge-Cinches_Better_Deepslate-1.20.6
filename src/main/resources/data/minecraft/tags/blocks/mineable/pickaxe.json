@@ -14,6 +14,9 @@
     "cinchsbetterdeepslate:mossy_deepslate_tile_slab",
     "cinchsbetterdeepslate:mossy_deepslate_tile_stairs",
     "cinchsbetterdeepslate:polished_deepslate_pressure_plate",
-    "cinchsbetterdeepslate:polished_deepslate_button"
+    "cinchsbetterdeepslate:polished_deepslate_button",
+    "cinchsbetterdeepslate:deepslate_wall",
+    "cinchsbetterdeepslate:deepslate_slab",
+    "cinchsbetterdeepslate:deepslate_stairs"
   ]
 }

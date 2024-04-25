@@ -24,5 +24,8 @@
   "block.cinchsbetterdeepslate.mossy_deepslate_tiles": "Mossy Deepslate Tiles",
   "block.cinchsbetterdeepslate.mossy_deepslate_tile_wall": "Mossy Deepslate Tile Wall",
   "block.cinchsbetterdeepslate.mossy_deepslate_tile_slab": "Mossy Deepslate Tile Slab",
-  "block.cinchsbetterdeepslate.mossy_deepslate_tile_stairs": "Mossy Deepslate Tile Stairs"
+  "block.cinchsbetterdeepslate.mossy_deepslate_tile_stairs": "Mossy Deepslate Tile Stairs",
+  "block.cinchsbetterdeepslate.deepslate_wall": "Deepslate Wall",
+  "block.cinchsbetterdeepslate.deepslate_slab": "Deepslate Slab",
+  "block.cinchsbetterdeepslate.deepslate_stairs": "Deepslate Stairs"
 }

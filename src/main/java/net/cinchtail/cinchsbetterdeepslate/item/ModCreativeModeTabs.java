@@ -30,6 +30,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MOSSY_DEEPSLATE_TILE_STAIRS.get());
                         output.accept(ModBlocks.MOSSY_DEEPSLATE_TILE_SLAB.get());
                         output.accept(ModBlocks.MOSSY_DEEPSLATE_TILE_WALL.get());
+                        output.accept(ModBlocks.DEEPSLATE_STAIRS.get());
+                        output.accept(ModBlocks.DEEPSLATE_SLAB.get());
+                        output.accept(ModBlocks.DEEPSLATE_WALL.get());
                         output.accept(ModBlocks.POLISHED_DEEPSLATE_PRESSURE_PLATE.get());
                         output.accept(ModBlocks.POLISHED_DEEPSLATE_BUTTON.get());
                         output.accept(ModItems.DEEPSLATE_SWORD.get());
