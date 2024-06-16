@@ -1,15 +1,15 @@
 package net.cinchtail.cinchsbetterdeepslate.item;
 
-import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Tiers;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
 public enum ModToolTiers implements Tier {
-    BLACKSTONE(BlockTags.INCORRECT_FOR_STONE_TOOL, 131, 4.0F, 1.0F, 5, Ingredient.of(Blocks.BLACKSTONE)),
-    DEEPSLATE(BlockTags.INCORRECT_FOR_STONE_TOOL, 231, 4.0F, 1.0F, 5, Ingredient.of(Blocks.DEEPSLATE));
+    BLACKSTONE(Tiers.STONE.getIncorrectBlocksForDrops(), 131, 4.0f, 1.0f, 5, Ingredient.of(Blocks.DIRT)),
+    DEEPSLATE(Tiers.STONE.getIncorrectBlocksForDrops(), 251, 4.0f, 1.0f, 5, Ingredient.of(Blocks.DIRT));
 
     private final TagKey<Block> incorrectBlocksForDrops;
     private final int uses;

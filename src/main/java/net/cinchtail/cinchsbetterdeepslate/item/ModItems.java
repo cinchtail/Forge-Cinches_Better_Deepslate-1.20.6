@@ -12,35 +12,25 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, CinchsBetterDeepslate.MOD_ID);
 
     public static final RegistryObject<Item> BLACKSTONE_SWORD = ITEMS.register("blackstone_sword",
-            () -> new SwordItem(ModToolTiers.BLACKSTONE,3, -2.4f,
-                    new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.BLACKSTONE, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.BLACKSTONE,3, -2.4f))));
     public static final RegistryObject<Item> BLACKSTONE_PICKAXE = ITEMS.register("blackstone_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.BLACKSTONE,1, -2.8f,
-                    new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.BLACKSTONE, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.BLACKSTONE,1, -2.8f))));
     public static final RegistryObject<Item> BLACKSTONE_AXE = ITEMS.register("blackstone_axe",
-            () -> new AxeItem(ModToolTiers.BLACKSTONE,7, -3.2f,
-                    new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.BLACKSTONE, new Item.Properties().attributes(AxeItem.createAttributes(ModToolTiers.BLACKSTONE,7, -3.2f))));
     public static final RegistryObject<Item> BLACKSTONE_SHOVEL = ITEMS.register("blackstone_shovel",
-            () -> new ShovelItem(ModToolTiers.BLACKSTONE,1, -3f,
-                    new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.BLACKSTONE, new Item.Properties().attributes(ShovelItem.createAttributes(ModToolTiers.BLACKSTONE,1, -3f))));
     public static final RegistryObject<Item> BLACKSTONE_HOE = ITEMS.register("blackstone_hoe",
-            () -> new HoeItem(ModToolTiers.BLACKSTONE,-1, -2f,
-                    new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.BLACKSTONE, new Item.Properties().attributes(HoeItem.createAttributes(ModToolTiers.BLACKSTONE,-1, -2f))));
     public static final RegistryObject<Item> DEEPSLATE_SWORD = ITEMS.register("deepslate_sword",
-            () -> new SwordItem(ModToolTiers.DEEPSLATE,3, -2.4f,
-                    new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.DEEPSLATE, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTiers.DEEPSLATE,3, -2.4f))));
     public static final RegistryObject<Item> DEEPSLATE_PICKAXE = ITEMS.register("deepslate_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.DEEPSLATE,1, -2.8f,
-                    new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.DEEPSLATE, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTiers.DEEPSLATE,1, -2.8f))));
     public static final RegistryObject<Item> DEEPSLATE_AXE = ITEMS.register("deepslate_axe",
-            () -> new AxeItem(ModToolTiers.DEEPSLATE,7, -3.2f,
-                    new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.DEEPSLATE, new Item.Properties().attributes(AxeItem.createAttributes(ModToolTiers.DEEPSLATE,7, -3.2f))));
     public static final RegistryObject<Item> DEEPSLATE_SHOVEL = ITEMS.register("deepslate_shovel",
-            () -> new ShovelItem(ModToolTiers.DEEPSLATE,1, -3f,
-                    new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.DEEPSLATE, new Item.Properties().attributes(ShovelItem.createAttributes(ModToolTiers.DEEPSLATE,1, -3f))));
     public static final RegistryObject<Item> DEEPSLATE_HOE = ITEMS.register("deepslate_hoe",
-            () -> new HoeItem(ModToolTiers.DEEPSLATE,-1, -2f,
-                    new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.DEEPSLATE, new Item.Properties().attributes(HoeItem.createAttributes(ModToolTiers.DEEPSLATE,-1, -2f))));
 
 
     public static void register(IEventBus eventBus){
