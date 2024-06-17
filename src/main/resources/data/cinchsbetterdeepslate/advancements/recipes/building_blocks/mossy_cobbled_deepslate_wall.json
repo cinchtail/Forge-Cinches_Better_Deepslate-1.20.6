@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "cinchsbetterdeepslate:mossy_cobbled_deepslate"
-            ]
+            "items": "cinchsbetterdeepslate:mossy_cobbled_deepslate"
           }
         ]
       },
