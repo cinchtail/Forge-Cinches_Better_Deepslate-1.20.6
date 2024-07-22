@@ -8,8 +8,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
 public enum ModToolTiers implements Tier {
-    BLACKSTONE(Tiers.STONE.getIncorrectBlocksForDrops(), 131, 4.0f, 1.0f, 5, Ingredient.of(Blocks.DIRT)),
-    DEEPSLATE(Tiers.STONE.getIncorrectBlocksForDrops(), 251, 4.0f, 1.0f, 5, Ingredient.of(Blocks.DIRT));
+    BLACKSTONE(Tiers.STONE.getIncorrectBlocksForDrops(), 131, 4.0f, 1.0f, 5, Ingredient.of(Blocks.BLACKSTONE)),
+    DEEPSLATE(Tiers.STONE.getIncorrectBlocksForDrops(), 251, 4.0f, 1.0f, 5, Ingredient.of(Blocks.COBBLED_DEEPSLATE));
 
     private final TagKey<Block> incorrectBlocksForDrops;
     private final int uses;
